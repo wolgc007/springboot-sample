@@ -1,0 +1,225 @@
+/* html{height: 100%;
+    width: 100%;
+}
+
+.logo{
+	margin:20px 0px 0px 20px;
+}
+#content{width: 850px;
+    height: 255px;
+    clear: both;
+}
+#content #left{background: url("../../images/login/left.png") no-repeat;
+    width: 500px;
+    height:255px;
+    float:left;
+}
+#content #right{background: url("../../images/login/right.png") no-repeat;
+    width:346px;
+    height:255px;
+    float: left;
+    padding-top:15px;
+}
+.account_input{
+    background: url("../../images/login/account.png") no-repeat;
+    border: 0px;
+    padding-left: 5px;
+    margin-left: 40px;
+    margin-top:20px;
+    width:260px;
+    height: 50px;
+    line-height:50px !important;
+    font: 14px arial,helvetica,clean,sans-serif;
+	color: #333;
+}
+.check{
+    margin-left: 45px;
+    margin-top:20px;
+    clear:both;
+}
+.code_input{
+    background: url("../../images/login/checkcode.png") no-repeat;
+    border: 0px;
+    height:30px;
+    width:80px;
+    float: left;
+}
+.code_img{
+	float:left;
+}
+.check a{
+	margin-left:10px;
+	text-decoration:none;
+}
+.btnlogin{
+    background: url("../../images/login/btnlogin.png") no-repeat;
+} */
+/*********************************************************************************/
+/*html body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}*/
+
+body{
+    background: url("../../img/background.png") repeat  scroll 0% 0% transparent;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 10px;
+    line-height: 1.7em;
+}
+body, input, textarea, button, legend {
+    color: #333;
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+}
+/* body{	
+	background-repeat: no-repeat;
+	background-size:100%;
+	background-image: url('../../images/login/body_background.png');
+    background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../images/login/body_background.png',sizingMethod='scale');
+    -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../images/login/body_background.png',sizingMethod='scale')";   
+} */
+.layout{
+    width:0;
+    height:0;
+    position:absolute;
+    left:50%;
+    rigth:50%;
+    top:50%;
+    bottom:50%;
+}
+.center{
+    background: white none repeat scroll 0 0;
+	border: 0 none;
+    border-radius: 4px;
+    box-shadow: 1px 0 0 0 #070427, -1px 0 0 0 #070427, 0 1px 0 0 #05031b, 0 2px 0 0 #070427, 2px 0 0 0 #0f094e, -2px 0 0 0 #0f094e, 0 3px 0 0 #0f094e, 0 -1px 0 0 #0f094e;
+    width:600px;
+    height:400px;
+    margin-left:-300px;
+    margin-top:-285px;
+    /*padding-top: 130px;
+    padding-left: 160px;*/
+}
+.img{
+    width:203px;
+    height: 30px;
+    margin-top:30px;
+    margin-left: 100px;
+
+}
+img{
+    border:0 none;
+}
+.content {
+    background: url("../../images/login/content_background.png") no-repeat;
+    width: 414px;
+    height: 291px;
+    z-index: 1000;
+    margin-top:50px;
+    margin-left:64px;
+    padding:30px;
+}
+.text_title{
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #333;
+    height: 30px;
+    line-height: 30px;
+}
+.text_log{
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+	padding-bottom: 6px;
+	padding-top: 12px;
+    white-space: normal;
+    color: #333;
+    text-align: left;
+    line-height: normal;
+}
+.line{
+    height: 5px;
+    border-bottom: 1px solid #CCCCCC;
+}
+form{
+    margin-top: 10px;
+}
+.label_text{
+	font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #333;
+    height: 25px;
+    line-height: 25px;
+}
+form .user_text{
+	border: 1px solid #d6d6d6;
+	border-radius: 5px;
+    box-shadow: 0 1px 4px #aaa inset;
+    padding-left: 7px;
+	margin-bottom:12px;
+	width: 400px;
+	height:32px;
+	font-size: 16px;
+}
+form .code_input{
+	border: 1px solid #b5b5b5;
+    height:28px;
+    width:80px;
+    float: left;
+}
+.button.rect {
+	width: 80px;
+	height:30px;
+    background: rgba(0, 0, 0, 0) linear-gradient(#37aaea, #117ed2) repeat scroll 0 0;
+    border: 1px solid #1992d9;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset;
+    border-collapse: separate;
+    display: inline-block;
+    font: 11px/1.5 "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    overflow: visible;
+    position: relative;
+}
+.label{
+	font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+	font-size:14px;
+}
+
+	.account-page-header {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 center;
+    border-bottom: 1px solid #e6e6e6;
+    color: #000;
+    font-size: 24px;
+    height: 18px;
+    margin-bottom: 15px;
+    padding-bottom: 14px;
+}
+
+.secure{
+	background: rgba(0, 0, 0, 0) img url(icon-lock-header-gray.JPG) no-repeat scroll 0 2px / 10px 13px;
+    color: #666;
+    display: inline;
+    float: right;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-top: -18px;
+    padding-left: 18px;
+	
+}
+
+.icon {
+    float: right;
+	margin-top: -24px;
+	margin-right: -18px;
+}
